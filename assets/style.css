@@ -1,0 +1,25 @@
+/*
+#74111A
+#E8D6D8
+#8CA5BF
+#748EB3
+#334771
+#E7D5D8
+*/
+
+body {
+	background-color: #ebebeb;
+	color: #334771;
+	display: flex;
+}
+
+nav {
+	width: 10vw;
+	display: flex;
+	flex-direction: column;
+}
+
+#ryanPic {
+	width: 75%;
+	border-radius: 50%;
+}
