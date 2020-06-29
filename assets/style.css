@@ -8,18 +8,58 @@
 */
 
 body {
-	background-color: #ebebeb;
-	color: #334771;
+	background-color: #334771;
+	margin: 0;
+	padding: 0;
+	color: #ebebeb;
+	font-family: 'Itim', cursive;
 	display: flex;
 }
 
 nav {
-	width: 10vw;
+	width: 10%;
 	display: flex;
 	flex-direction: column;
+	position: fixed;
+	padding-left: 10px;
+	padding-top: 30px;
 }
 
 #ryanPic {
 	width: 75%;
 	border-radius: 50%;
+}
+
+a {
+	padding-left: 10px;
+	padding-top: 5px;
+	text-decoration: none;
+	color: #ebebeb;
+}
+
+main {
+	margin: auto;
+	width: 75vw;
+	display: flex;
+	flex-direction: column;
+}
+
+#about {
+	width: 100%;
+}
+
+.name {
+	font-family: 'Rock Salt', cursive;
+	font-size: 3em;
+}
+
+#first {
+}
+
+#last {
+}
+
+#bolt {
+	height: auto;
+	width: 90%;
 }
